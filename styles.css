@@ -1,0 +1,350 @@
+*{
+    margin: 0 ;
+    padding: 0;
+  }
+  body {
+
+    width: 100%;
+    height: 1000px;
+    background: radial-gradient(at 30% top, #66696f, #363437, #1f1d1e, #000000);
+  }
+  .nav-bar {
+    background-color: black;
+    display: flex;
+    height: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+
+  }
+
+  .nav-bar > .logo-container {
+    width: 14%;
+    padding-top: 10px;
+
+  }
+  .nav-bar >.logo-container img {
+    width:100%;
+
+  }
+
+
+  .explore-container{
+    display: grid;
+    width: 30%;
+    margin-left: 30px
+  }
+
+  .gold {
+    color: gold;
+    margin-left: 15px;
+    font-weight: bold;
+  }
+  .bottom {
+    display: flex;
+    font-size: larger;
+    font-weight: bolder;
+
+  }
+
+
+  .bottom > .white a{
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+  
+  }
+
+  .bottom > .gray select{
+    color: silver;
+    text-decoration: none;
+    user-select: none;
+    background: black;
+    border: none;
+    font-size: 16px;
+     
+  }
+
+  .gray > #spark {
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: darkgray;;
+
+  }
+  .buttons-container {
+    display:flex;
+    background-color: none;
+    border: none;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+    margin-left: auto;
+    border: 2px;
+
+  }
+
+  .buttons-container .button {
+    background-color: rgb(56, 62, 62);
+    color: white;
+    border: darkgray;
+    border-radius: 3px;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 15px 18px;
+    
+  }
+
+
+
+  .buttons-container > .button .dropdown > .chevron i{
+    color: rgb(113, 205, 113);
+    font-size: 25px;
+    position: relative;
+    left: 15px;
+    top: 5px;
+    padding-right: 15px 
+
+  }
+
+.dropdown{
+  display:flex;
+  align-items: center;
+  padding: auto;
+  justify-content: space-around;
+
+}
+.buttons-container > .button > .search{
+  background: pink;
+}
+
+
+
+
+.main-content > .left-column {
+  color: darkgray;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 40px 60px 0 50px;
+  width: 50%;
+  font-size: 35px;
+
+}
+
+.main-content > .left-column p span{
+  font-size: 32px;
+  color: white;
+  
+}
+
+.main-content > .left-column > .p2 {
+  font-size: 30px;
+}
+
+.main-content > .right-column {
+  width: 45%;
+  padding: 40px 0 0 40px;
+  font-size: 22px;
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.main-content > .right-column p {
+  margin-left: 15px;
+} 
+.main-content > .right-column p span{
+  color:skyblue;
+} 
+.main-content > .right-column img {
+  max-width: 100%;
+  max-height: 100%; 
+
+}
+
+
+.main-content-buttons {
+  margin-top: 45px;
+}
+.button-in {
+  background: rgb(113, 205, 113);
+  color: black;
+  font-size: 32px;
+  border-radius: 5px;
+  border: rgb(113, 205, 113);
+  padding: 15px 20px;
+  font-weight:500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.button-learn {
+  background: black;
+  color: white;
+  font-size: 32px;
+  border-radius: 5px;
+  border: black;
+  padding: 17px 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+
+}
+
+.code-for-bar {
+  display: flex;
+  padding: 10px;
+  border:groove gray;
+  align-items:center;
+  justify-content: space-around;
+  background: rgb(56, 62, 62);
+  padding: 0;
+  box-sizing: border-box;
+  flex-flow: row wrap;
+
+
+}
+
+.code-for-bar a {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+   
+
+}
+
+.code-for-bar > .code-for {
+
+  border-width: .5rem;
+  padding: 15px;
+  margin: 0;  
+}
+
+.code-for-bar span{
+  font-weight: 800;
+  font-size: larger;
+  
+}
+.main-content{
+  display:flex;
+}
+
+
+
+.fa-search:before {
+  content: "\f002";
+  color: rgb(56, 62, 62);
+  background: black;
+  font-size: xx-large;
+  position: relative;
+  top: 8px;
+    
+}
+
+ .login {
+  background:rgb(56, 62, 62);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  padding: 16px 15px;
+  border-radius: 3px ;
+
+
+}
+
+.signup {
+  background:rgb(56, 62, 62);
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: large;
+  font-weight: bold;
+  padding: 15px 15px;
+  border-radius: 3px;
+
+
+}
+
+
+
+html {
+  box-sizing: border-box;
+}
+
+.code-for-bar {
+  max-width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+  background: rgb(56, 62, 62);
+
+  width: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: x-large;
+  color: white;
+}
+
+.for-code {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  /* flex-flow: row wrap;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: flex-start;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  place-content: flex-start space-between;
+  overflow: hidden; */
+}
+
+.code-for {
+  /* flex: 1 1 auto;
+
+  position: relative;
+  text-align: center;
+  line-height: 80px;
+  flex-direction: row;
+  box-sizing: border-box;
+  place-content: center flex-start;
+  align-items: center; */
+  background: rgb(56, 62, 62);
+  height: fit-content;
+  width: 100%;
+  margin: 5px; 
+  flex-basis: 20%;
+  border: 1px solid silver;
+
+  margin-bottom: 1px;
+  padding-left: 30px;
+  padding-right: 30px;
+  min-height:fit-content;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+/* .code-for + .code-for {
+  border-left: solid 1px white;
+} */
+
+/** Optional for OPs exact layout */
+
+.code-for:first-child {
+  text-align: left;
+}
+
+.code-for{
+  border-left: hidden;
+  border-top: hidden;
+  border-bottom: hidden;
+  border-right: fit-content;
+
+}
+.code-for:last-child {
+  text-align: right;
+  border-right: hidden;
+}
